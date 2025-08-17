@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
-import { DOMParser, HTMLDocument } from "jsr:@b-fuze/deno-dom";
+import { DOMParser, HTMLDocument } from "jsr:@b-fuze/deno-dom@0.1.56";
 import { parseFromID } from "./parseFromID.ts"; // Adjust this to the correct path
 import { Stylesheet } from "../interfaces/stylesheet.ts";
 

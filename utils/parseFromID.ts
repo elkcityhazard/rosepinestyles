@@ -1,4 +1,4 @@
-import { HTMLDocument,Element,NodeList } from "jsr:@b-fuze/deno-dom";
+import { HTMLDocument,Element,NodeList } from "jsr:@b-fuze/deno-dom@0.1.56";
 import { Stylesheet,StylesheetElInterface } from "../interfaces/stylesheet.ts";
 import { EvalChildNodeFunction } from "../interfaces/types/evaluateChildNodeFunction.ts";
 import { evaluateChildNodes } from "./evaluateChildNodes.ts";
