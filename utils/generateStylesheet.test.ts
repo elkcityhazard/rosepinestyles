@@ -1,5 +1,5 @@
 import { expect } from "jsr:@std/expect/expect";
-import { Stylesheet } from "../interfaces/stylesheet.ts";
+import type { Stylesheet } from "../interfaces/stylesheet.ts";
 import {generateStylesheet} from "./generateStylesheet.ts"
 
 

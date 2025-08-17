@@ -1,9 +1,9 @@
 import {fetchRosePineIngredients} from "./fetchRosePineIngredents.ts"
 import { generateStylesheet } from "./generateStylesheet.ts";
 import { parseFromID } from "./parseFromID.ts";
-import { Stylesheet } from "../interfaces/stylesheet.ts";
-import { DOMParser } from "jsr:@b-fuze/deno-dom";
-import { FlagInterface, parseFlags } from "./parseFlags.ts";
+import type { Stylesheet } from "../interfaces/stylesheet.ts";
+import { DOMParser } from "jsr:@b-fuze/deno-dom@0.1.56";
+import { type FlagInterface, parseFlags } from "./parseFlags.ts";
 import { saveFile } from "./saveFile.ts";
 
 const CSS_FILENAME:string = "./_colors-rose-pine.css"

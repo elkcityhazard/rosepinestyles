@@ -1,4 +1,4 @@
-import  { Stylesheet,StylesheetElInterface } from "../interfaces/stylesheet.ts";
+import  type { Stylesheet,StylesheetElInterface } from "../interfaces/stylesheet.ts";
 
 export function generateStylesheet(styleList:Stylesheet):string {
 

@@ -1,7 +1,7 @@
 
 import {expect} from "jsr:@std/expect"
 import { fetchRosePineIngredients } from "./fetchRosePineIngredents.ts";
-import { DOMParser, HTMLDocument } from "jsr:@b-fuze/deno-dom@0.1.56";
+import { DOMParser, type HTMLDocument  } from "jsr:@b-fuze/deno-dom@0.1.56";
 import { evaluateChildNodes } from "./evaluateChildNodes.ts";
 
 

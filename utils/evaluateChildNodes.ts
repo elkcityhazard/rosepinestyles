@@ -1,5 +1,5 @@
-import { NodeList } from "jsr:@b-fuze/deno-dom@0.1.56";
-import { EvalChildNodeFunction } from "../interfaces/types/evaluateChildNodeFunction.ts";
+import type { NodeList } from "jsr:@b-fuze/deno-dom@0.1.56";
+import type { EvalChildNodeFunction } from "../interfaces/types/evaluateChildNodeFunction.ts";
 
 
 
